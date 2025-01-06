@@ -13,7 +13,7 @@
 	.hero .col-md-6:last-child {
 		position: absolute;
 		right: 0;
-		bottom: calc(100vh * (33/120) - 99px);
+		bottom: calc(100vh * (33/120) - (99px + 51px));
 	}
 }
 
