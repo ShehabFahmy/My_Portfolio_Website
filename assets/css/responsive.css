@@ -1,4 +1,21 @@
 /*==========  Non-Mobile First Method  ==========*/
+@media only screen and (max-height : 1080px) {
+	/* HERO
+	================================================== */
+	.hero {
+		min-height: 600px;
+	}
+
+	.hero img {
+		height: 400px;
+	}
+	
+	.hero .col-md-6:last-child {
+		position: absolute;
+		right: 0;
+		bottom: calc(100vh * (33/120) - 99px);
+	}
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {
@@ -16,7 +33,7 @@
 	}
 
 	.hero img {
-		height: 500px;
+		height: 400px;
 	}
 
 	/* SITEMAIN
@@ -65,7 +82,7 @@
 	}
 
 	.hero img {
-		height: 420px;
+		height: 320px;
 	}
 
 	/* SITEMAIN
@@ -308,7 +325,7 @@
 	}
 
 	.hero img {
-		height: 360px
+		height: 260px
 	}
 
 	/* SITEMAIN

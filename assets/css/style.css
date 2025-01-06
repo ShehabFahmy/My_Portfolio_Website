@@ -247,7 +247,7 @@ html, body {
 .hero .col-md-6:last-child {
     position: absolute;
     right: 0;
-    bottom: 180px;
+    bottom: 0;
 }
 
 .hero h1 {
@@ -264,7 +264,7 @@ html, body {
 } 
 
 .hero img {
-    height: 500px;
+    height: 400px;
 }
 
 /* SITEMAIN
